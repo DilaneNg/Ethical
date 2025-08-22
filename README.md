@@ -1,7 +1,7 @@
-# 🛡️ ETHICAL – Framework de Pentest Éthique
+# 🛡️ ETHICAL – Outil de Pentest Éthique
 
 <p align="center">
-  <img src="assets/logo.png" alt="Logo ETHICAL" width="250"/>
+  <img src="assets/logo.png" alt="Logo ETHICAL" width="500"/>
 </p>
 
 <p align="center">
@@ -20,6 +20,7 @@
   <img src="https://img.shields.io/badge/Penetration-Testing-orange" alt="Penetration Testing">
   <img src="https://img.shields.io/badge/Cyber-Security-blue" alt="Cyber Security">
 </p>
+
 
 ---
 
@@ -139,8 +140,18 @@ Naviguer dans le menu principal pour accéder aux fonctionnalités :
 - **Menu principal**  
   ![Menu Principal](assets/menu_principal.png)
 
+- **Installation des dépendances**  
+  ![Menu Principal](assets/depandances.png)
+
 - **Scan réseau**  
   ![Scan Réseau](assets/scan_reseau.png)
+
+- **Exportation du Rapport du scan réseau**  
+  ![Menu Principal](assets/export_result.png)
+
+
+- **Génération de payload windows**  
+  ![Menu Principal](assets/payload_windows.png)
 
 ---
 
@@ -154,8 +165,10 @@ Naviguer dans le menu principal pour accéder aux fonctionnalités :
 
 ## 📋 Prérequis
 - Python 3.8 ou supérieur
-- Modules Python (installés via menu) :  
-  cryptography, psutil, requests, scapy, beautifulsoup4, pyinstaller
+- Modules Python :  
+```bash
+pip install requests psutil pywin32
+```
 
 ---
 
