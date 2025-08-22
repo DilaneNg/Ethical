@@ -97,8 +97,19 @@ cd ethical
 # Lancer l'installation automatique
 python3 ethical.py
 # Sélectionner l'option [1] pour installer les dépendances
-
 ```
+
+### 🛠️ Utilisation
+- **Lancer ETHICAL** :
+```bash
+python3 ethical.py
+```
+**Naviguer dans le menu principal pour accéder aux fonctionnalités** :
+ - Préparation & Configuration
+ - Payloads
+ - Reconnaissance
+ - Post-Exploitation
+ - Utilitaires & Reporting
 
 ## 🛠️ Utilisation
 Naviguer dans le menu principal pour accéder aux fonctionnalités :
